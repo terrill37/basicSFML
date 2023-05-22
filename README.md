@@ -41,4 +41,15 @@ For window, need to setup sfml correctly by building and installing to system.
 8. `sudo make install`
     - the SFML components will be copied to install locations specified in the `CMakeCache.txt` file
 
+Producing first window
+- initially saved in the master branch
+- with cmake and SFML properly installed, this repository can be used to produce the first window
+1. `git clone git@github.com:terrill37/basicSFML.git sfmlSample`
+2. `cd sfmlSample`
+3. `mkdir build && cd build`
+4. `cmake ..`
+5. `make`
+    - will produce the executable as listed in the `CMakeLists.txt` file
+6. `./gameEngine` (name will probably change in upcoming update)
+    - will draw window with green circle for master branch
 
