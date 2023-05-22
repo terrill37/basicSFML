@@ -52,4 +52,4 @@ Producing first window
     - will produce the executable as listed in the `CMakeLists.txt` file
 6. `./gameEngine` (name will probably change in upcoming update)
     - will draw window with green circle for master branch
-
+    ![plot](./images/circleWindow.PNG)
